@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+
+/* LAYOUT DO CABEÇALHO */
+
+#area-cabecalho{
+    background-color: #f7b600; 
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+.white{
+    color: white;
+}
+
+/* LINKS EDIT */
+a{
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+a:link, a:visited{
+    color: #fff;
+
+}
+
+
+a:hover{
+    background-color: #e6e6e6;
+    color: #f7b600;
+}
