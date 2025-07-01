@@ -80,20 +80,18 @@ a:hover {
 /* AREA PRINCIPAL */
 
 #area-principal {
-    width: 920px;
+    width: 1010px;
+    height: 1300px;
     margin: 0 auto;
     padding: 15px;
 }
 
 #area-postagens {
+    background: #e6e6e6;
     width: 660px;
     float: left;
 }
 
-#area-lateral {
-    width: 240px;
-    float: right;
-}
 
 
 /* POSTAGEM */
@@ -107,10 +105,55 @@ a:hover {
 }
 
 .postagem {
+    background: #fff;
     padding: 20px;
+    margin-bottom: 25px;
 }
 
 img{
     width: 620px;
 }
 
+
+/*AREA LATERAL*/
+
+.area-lateral {
+    width: 330px;
+    height: 100%;
+    float: right;
+    
+}
+
+.postagem-lateral{
+    height: 200px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;    
+
+}
+
+.dentro-postagem-lateral{
+    height: 169px;
+    width: 300px;
+}
+
+h3{
+    background-color: hsl(0, 2%, 82%);
+    height: 35px;
+    display: flex;
+    align-items: center;
+    color: #4e4e4e;
+    position: relative;
+    padding: 0px 4px;
+}
+
+.p{
+    padding: 10px 0px 0px 0px;
+}
+
+#linha{
+    border-bottom: 1px solid hsl(0, 2%, 82%);
+    padding: 0px 0px 8px;
+}
